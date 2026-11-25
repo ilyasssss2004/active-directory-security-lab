@@ -72,11 +72,13 @@ Each experiment has a dedicated report describing its methodology, configuration
 ## Tools and Technologies
 
 ### Operating Systems and Lab Environment
+
 - **Windows Server 2019** — Active Directory Domain Services and Domain Controller
 - **Windows 10** — Domain-joined workstation
 - **Kali Linux** — Security assessment environment
 
 ### Active Directory Assessment and Attack Tools
+
 - **NetExec** — SMB authentication testing, controlled password guessing and password spraying
 - **Impacket** — AS-REP Roasting, Kerberoasting, NTLM relay, Kerberos delegation testing and machine-account operations
 - **Hashcat** — Offline password-hash recovery
@@ -85,44 +87,11 @@ Each experiment has a dedicated report describing its methodology, configuration
 - **MIT Kerberos utilities** — Kerberos authentication and ticket inspection
 
 ### Administration and Hardening
+
 - **PowerShell** — Active Directory administration, auditing and remediation
 - **Active Directory PowerShell module** — Domain, user, computer and security configuration
 - **Group Policy and Active Directory security settings**
 - **SMB signing, LDAP signing, LDAPS and Kerberos security configuration**
-
-## Repository Structure
-
-```text
-active-directory-security-lab/
-│
-├── README.md
-│
-├── experiments/
-│   ├── 01-password-policy/
-│   ├── 02-asrep-roasting/
-│   ├── 03-kerberoasting/
-│   ├── 04-password-spraying/
-│   ├── 05-ldap-security/
-│   ├── 06-ntlm-relay-smb-signing/
-│   ├── 07-ad-acl-misconfiguration/
-│   ├── 08-kerberos-delegation-abuse/
-│   └── 09-machine-account-quota-abuse/
-│
-├── evidence/
-│   └── experiments/
-│       ├── 01-password-policy/
-│       ├── 02-asrep-roasting/
-│       ├── 03-kerberoasting/
-│       └── 04-password-spraying/
-│
-└── hardening/
-    ├── kerberos/
-    └── password-policy/
-```
-
-Evidence for later experiments is maintained inside the corresponding experiment directories. Each experiment README identifies its supporting evidence.
-
-The `hardening/` directory contains supporting hardening configurations and scripts.
 
 ## Security Assessment and Hardening Approach
 
@@ -163,4 +132,3 @@ The experiments demonstrate specific security weaknesses and their remediation. 
 This repository is intended for educational purposes and authorized security testing only.
 
 All experiments were conducted in a controlled laboratory environment. The techniques documented here must not be used against systems or networks without explicit authorization.
-
