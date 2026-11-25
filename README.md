@@ -71,19 +71,24 @@ Each experiment has a dedicated report describing its methodology, configuration
 
 ## Tools and Technologies
 
-| Tool / Technology | Purpose |
-|---|---|
-| Windows Server 2019 | Active Directory Domain Services and domain administration |
-| Windows 10 | Domain-joined workstation testing |
-| Kali Linux | Security assessment environment |
-| PowerShell Active Directory Module | Domain configuration, enumeration and hardening |
-| Impacket | Kerberos and Active Directory security testing |
-| BloodHound Community Edition | Active Directory relationship and permission analysis |
-| bloodhound-python | Active Directory data collection |
-| Nmap | Network and service discovery |
-| Wireshark | Network traffic analysis |
+### Operating Systems and Lab Environment
+- **Windows Server 2019** — Active Directory Domain Services and Domain Controller
+- **Windows 10** — Domain-joined workstation
+- **Kali Linux** — Security assessment environment
 
-Additional utilities and tools are documented in the relevant experiment reports where applicable.
+### Active Directory Assessment and Attack Tools
+- **NetExec** — SMB authentication testing, controlled password guessing and password spraying
+- **Impacket** — AS-REP Roasting, Kerberoasting, NTLM relay, Kerberos delegation testing and machine-account operations
+- **Hashcat** — Offline password-hash recovery
+- **BloodHound CE** — Active Directory relationship and permission analysis
+- **bloodhound-python** — Active Directory data collection
+- **MIT Kerberos utilities** — Kerberos authentication and ticket inspection
+
+### Administration and Hardening
+- **PowerShell** — Active Directory administration, auditing and remediation
+- **Active Directory PowerShell module** — Domain, user, computer and security configuration
+- **Group Policy and Active Directory security settings**
+- **SMB signing, LDAP signing, LDAPS and Kerberos security configuration**
 
 ## Repository Structure
 
@@ -158,3 +163,4 @@ The experiments demonstrate specific security weaknesses and their remediation. 
 This repository is intended for educational purposes and authorized security testing only.
 
 All experiments were conducted in a controlled laboratory environment. The techniques documented here must not be used against systems or networks without explicit authorization.
+
