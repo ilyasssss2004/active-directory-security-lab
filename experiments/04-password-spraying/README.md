@@ -105,14 +105,14 @@ The post-hardening test confirmed that the old shared password was rejected by a
 
 Evidence is stored in:
 
-    evidence/experiments/04-password-spraying/
+    evidence/
 
 | Filename | Description |
 |---|---|
 | 01-account-creation.png | Creation of the dedicated test accounts |
-| 02-initial-password-spray-success.png | Successful initial password spraying |
-| 03-domain-lockout-hardening.png | Domain lockout policy and password remediation |
-| 04-post-hardening-password-rejection.png | Rejection of the old password after remediation |
+| initial-password-spray-success.jpg | Successful initial password spraying |
+| domain-lockout-hardening.png | Domain lockout policy and password remediation |
+| post-hardening-password-rejection.jpg | Rejection of the old password after remediation |
 
 ## 10. Hardening Script
 

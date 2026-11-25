@@ -100,4 +100,4 @@ Requiring Kerberos pre-authentication prevented the unauthenticated AS-REP extra
 
 Screenshots documenting the vulnerable configuration, successful extraction, offline cracking, remediation, and post-remediation validation are stored in:
 
-`evidence/experiments/02-asrep-roasting/`
+`evidence/`

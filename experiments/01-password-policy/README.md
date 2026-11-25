@@ -149,3 +149,18 @@ The original weak password was accepted during the initial authentication and gu
 Following the password-policy hardening and account password reset, the original password was rejected while the new password was accepted.
 
 The experiment demonstrated the importance of enforcing stronger password requirements, maintaining password history and applying appropriate account lockout controls.
+
+## 11. Evidence
+
+Screenshots documenting the initial weak policy, authentication testing,
+password guessing, hardening, and final verification are stored in:
+
+`evidence/`
+
+| Filename | Description |
+|---|---|
+| `initial-weak-policy.png` | Initial weak Fine-Grained Password Policy |
+| `initial-weak-password-authentication.jpg` | Successful initial authentication |
+| `controlled-password-guessing.jpg` | Controlled online password guessing |
+| `hardened-password-policy.png` | Updated Fine-Grained Password Policy |
+| `final-password-verification.jpg` | Final authentication verification |

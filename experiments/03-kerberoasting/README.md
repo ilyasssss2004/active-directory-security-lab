@@ -85,6 +85,6 @@ Resetting the service account password to a strong unique value prevented recove
 
 ## 11. Evidence
 
-See evidence/experiments/03-kerberoasting/ for screenshots documenting the vulnerable configuration, ticket extraction, password recovery, remediation, and retest.
+See evidence/ for screenshots documenting the vulnerable configuration, ticket extraction, password recovery, remediation, and retest.
 
 No passwords, recovered credentials, or raw Kerberos hashes should be committed to the repository.
